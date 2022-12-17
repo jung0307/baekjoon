@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.Comparator;
+import java.util.StringTokenizer;
 
 public class Main {
 
@@ -15,13 +16,14 @@ public class Main {
 
         int arrInt[][] = new int[n][2];
 
+        StringTokenizer st;
+
         for(int i = 0; i < n; i++) {
 
-            String s = br.readLine();
-            String arr[] = s.split(" ");
+            st = new StringTokenizer(br.readLine());
 
-            arrInt[i][0] = Integer.parseInt(arr[0]);
-            arrInt[i][1] = Integer.parseInt(arr[1]);
+            arrInt[i][0] = Integer.parseInt(st.nextToken());
+            arrInt[i][1] = Integer.parseInt(st.nextToken());
 
         }
 
