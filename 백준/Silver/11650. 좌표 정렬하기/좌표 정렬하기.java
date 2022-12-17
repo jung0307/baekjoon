@@ -39,9 +39,13 @@ public class Main {
             }
         });
 
+        StringBuilder sb = new StringBuilder();
+
         for(int[] a : arrInt ) {
-            System.out.println(a[0] + " " +a[1]);
+            sb.append(a[0] + " " +a[1] +"\n");
         }
+
+        System.out.println(sb.toString());
 
 
     }
