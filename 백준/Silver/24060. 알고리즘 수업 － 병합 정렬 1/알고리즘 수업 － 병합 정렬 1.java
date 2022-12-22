@@ -1,5 +1,4 @@
 
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -37,7 +36,7 @@ public class Main {
 //        }
 
         merge_sort(ee , 0 , ee.length-1);
-        tmp = null;
+//        tmp = null;
 
         System.out.println(zzz);
 
@@ -55,6 +54,7 @@ public class Main {
     }
 
     public static void merge(int[] arrInt,int p,int q,int r) {
+//        tmp = new int[arrInt.length];
 
         int i = p; int j = q + 1; int t = 0;
         while (i <= q && j <= r) {
