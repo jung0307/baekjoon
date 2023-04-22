@@ -52,20 +52,4 @@ public class Main14935 {
         }
     }
 
-//    public boolean fa(String s) {
-//
-//        int a = 0;
-//        String arrS[] = s.split("");
-//
-//        a = Integer.parseInt(arrS[0]) * arrS.length;
-//
-//        String sTemp = a+"";
-//
-//        if(sTemp.equals(s)) {
-//            return true;
-//        }else {
-//            return false;
-//        }
-//
-//    }
 }
